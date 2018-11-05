@@ -1,0 +1,193 @@
+{
+   "@context": "http://iiif.io/api/presentation/2/context.json",
+   "@id": "https://data.ucd.ie/api/img/manifests/ivrla:7173",
+   "rendering": {
+         "@id": "https://digital.ucd.ie/get/ivrla:7173/content",
+         "format": "application/pdf",
+         "label": "Download as PDF"
+   },
+   "seeAlso": [
+      {
+         "@id": "https://digital.ucd.ie/view/ivrla:7173.xml",
+         "format": "text/xml",
+         "profile": "http://www.loc.gov/mods/v3",
+         "label": "MODS metadata describing this object"
+      },
+      {
+         "@id": "https://digital.ucd.ie/view/ivrla:7173.n3",
+         "format": "text/rdf+n3",
+         "label": "RDF n3 serialisation of metadata describing this object"
+      },
+      {
+         "@id": "https://data.ucd.ie/api/edm/v1/ivrla:7173",
+         "format": "application/x.europeana-edm+xml",
+         "label": "EDM (Europeana Data Model) RDF metadata",
+         "profile": "http://www.europeana.eu/schemas/edm/"
+      },
+      {
+         "@id": "https://digital.ucd.ie/view/ivrla:7173.rdf",
+         "format": "application/rdf+xml",
+         "label": "RDF-XML metadata describing this object"
+      }   ],
+   "within": {
+      "@id": "https://data.ucd.ie/api/img/collection/ivrla:7150",
+
+      "@type": "sc:Collection",
+
+      "label": "Boehm/Casement Papers"
+   },
+   "navDate": "1915-06-03T00:00:00Z",
+   "attribution": "UCD Archives",
+   "logo": "https://digital.ucd.ie/images/logos/ucd_logo_sm.png",
+   "description": "[Letter from Roger Casement, Frankfurt to Captain Hans Boehm, consisting mainly of the German Government&apos;s declaration of good will in relation to any possible invasion of Ireland.]",
+   "label": "[bla bla bla, It was you!]",
+   "@type": "sc:Manifest",
+   "thumbnail": "https://digital.ucd.ie/get/ivrla:7173/thumbnail",
+   "metadata": [
+      { "label": "title","value": "[Letter from Roger Casement, Frankfurt to Captain Hans Boehm, consisting mainly of the German Government&apos;s declaration of good will in relation to any possible invasion of Ireland.]" },
+      {
+         "label": "Type of resource", "value": [
+            { "@value": "dctypes:Text" }
+         ]
+      },
+      {
+         "label": "published", "value": "Frankfurt, Germany"
+      },
+      {
+         "label": "created", "value": "3 June 1915"
+      },
+      {
+         "label" : "topic-LCSH", "value":
+         [
+            { "@value": "Correspondence" },
+            { "@value": "Correspondence" },
+            { "@value": "World War, 1914-1918" },
+            { "@value": "History" },
+            { "@value": "Causes" },
+            { "@value": "Foreign relations" },
+            { "@value": "Foreign relations" }
+         ]
+      },
+      {
+         "label": "genre", "value": "Correspondence"
+      }
+   ],
+   "sequences": [{
+      "@context":"http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://data.ucd.ie/api/img/manifests/ivrla:7173/sequence/normal",
+      "@type": "sc:Sequence",
+
+      "label": "Current Page Order",
+      "viewingHint": "individuals",
+      "canvases": [
+         {
+           "@id": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7174",
+           "@type": "sc:Canvas",
+           "label": "[Letter, Front, right page]",
+           "width": 4155,
+           "height": 5899,
+
+            "images": [{
+                "resource": {
+                    "service": {
+                       "@id": "https://iiif.ucd.ie/loris/ivrla:7174",
+                       "@context": "http://iiif.io/api/image/2/context.json",
+                       "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                 "format": "image/jpeg",
+                 "height": 5899,
+                 "width": 4155,
+                 "@id": "https://iiif.ucd.ie/loris/ivrla:7174/full/full/0/default.jpg",
+                 "@type": "dcTypes:Image"
+               },
+              "on": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7174",
+              "motivation": "sc:painting",
+              "@id": "https://data.ucd.ie/api/img/ivrla:7173/annotation/ivrla:7174",
+              "@type": "oa:Annotation"
+            }]
+         },
+         {
+           "@id": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7175",
+           "@type": "sc:Canvas",
+           "label": "[Letter, Front, left page]",
+           "width": 4270,
+           "height": 5899,
+
+            "images": [{
+                "resource": {
+                    "service": {
+                       "@id": "https://iiif.ucd.ie/loris/ivrla:7175",
+                       "@context": "http://iiif.io/api/image/2/context.json",
+                       "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                 "format": "image/jpeg",
+                 "height": 5899,
+                 "width": 4270,
+                 "@id": "https://iiif.ucd.ie/loris/ivrla:7175/full/full/0/default.jpg",
+                 "@type": "dcTypes:Image"
+               },
+              "on": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7175",
+              "motivation": "sc:painting",
+              "@id": "https://data.ucd.ie/api/img/ivrla:7173/annotation/ivrla:7175",
+              "@type": "oa:Annotation"
+            }]
+         },
+         {
+           "@id": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7176",
+           "@type": "sc:Canvas",
+           "label": "[Letter, Back, left page]",
+           "width": 3972,
+           "height": 5880,
+
+            "images": [{
+                "resource": {
+                    "service": {
+                       "@id": "https://iiif.ucd.ie/loris/ivrla:7176",
+                       "@context": "http://iiif.io/api/image/2/context.json",
+                       "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                 "format": "image/jpeg",
+                 "height": 5880,
+                 "width": 3972,
+                 "@id": "https://iiif.ucd.ie/loris/ivrla:7176/full/full/0/default.jpg",
+                 "@type": "dcTypes:Image"
+               },
+              "on": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7176",
+              "motivation": "sc:painting",
+              "@id": "https://data.ucd.ie/api/img/ivrla:7173/annotation/ivrla:7176",
+              "@type": "oa:Annotation"
+            }]
+         },
+         {
+           "@id": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7177",
+           "@type": "sc:Canvas",
+           "label": "[Letter, Back, right page]",
+           "width": 4164,
+           "height": 5909,
+
+            "images": [{
+                "resource": {
+                    "service": {
+                       "@id": "https://iiif.ucd.ie/loris/ivrla:7177",
+                       "@context": "http://iiif.io/api/image/2/context.json",
+                       "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                 "format": "image/jpeg",
+                 "height": 5909,
+                 "width": 4164,
+                 "@id": "https://iiif.ucd.ie/loris/ivrla:7177/full/full/0/default.jpg",
+                 "@type": "dcTypes:Image"
+               },
+              "on": "https://data.ucd.ie/api/img/ivrla:7173/canvas/ivrla:7177",
+              "motivation": "sc:painting",
+              "@id": "https://data.ucd.ie/api/img/ivrla:7173/annotation/ivrla:7177",
+              "@type": "oa:Annotation"
+            }]
+         }
+      ]
+   }],
+ "service": [ { "@context": "http://iiif.io/api/search/0/context.json", "@id": "https://data.ucd.ie/api/img/search/ivrla:7173", "profile": "http://iiif.io/api/search/0/search", "label": "UCD content search" }
+    
+      ]
+  
+}
